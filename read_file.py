@@ -13,7 +13,7 @@ class Metadata:
     Parses Poshmark's sales_activity_report.csv to get `username` and the `sr_start_date`, `sr_end_date` and creates `output_folder` if it doesn't exist
     ex.:
     gets data:
-        str(): closet = [nyckattycat] on the first line
+        str(): closet = [<@username>] on the first line
         str(): dates from period = [01.01.2019-12.31.2019] on the 2nd line. THIS LINE MUST BE PRESENT, DO CHECK ON THE PURCHASE STAGE
     to call:
         import read_file as rf
