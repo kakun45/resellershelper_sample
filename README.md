@@ -1,45 +1,70 @@
 # Classy Graphs's sample code
 ## Author - Xeniya Shoiko, All rights reserved.
-My repo for the entire project is private I'm adding these files here for a demo purpose only. This is NOT a complete code.
+**Note:** My repository for the entire project is private. I'm including these files here for demo purposes only. This is **not** the complete code.
 
-`Classy Graphs` is a comprehensive Python-based tool designed to streamline and optimize various metrics for resellers in the e-commerce domain. This project primarily targets resellers who deal with multiple marketplaces and need a unified platform to manage their KPIs, track sales, and analyze their performance. I started it in 2020 when Poshmark had no dashboard for sellers, just the .CSV sales report. As a seller, I knew exactly what I needed, and I decided to make it. The dashboard exists in the app as of today, but the metrics are limited.
+## Classy Graphs
+Classy Graphs is a comprehensive Python-based tool designed to streamline and optimize key performance metrics for resellers in the e-commerce space. It primarily serves resellers operating across multiple marketplaces who need a unified platform to manage KPIs, track sales, and analyze performance.
+
+I started building this in 2020, back when Poshmark didn’t offer sellers a dashboard—only a .CSV sales report. As a seller myself, I knew exactly what was missing and decided to build the tool I needed. While Poshmark has since added a basic dashboard, the metrics remain limited.
 
 Here is a sample run of the application https://drive.google.com/drive/folders/1ouAag71SeoWP2P_t0qaxfUevsI5LKmmc?usp=sharing
 
-Users: Poshmark sellers, which are ~50% of 80 mln users, with the potential to expand to Etsy, Merkari, etc. sellers. 
+## Target Users
 
-Are you a Poshmark seller, know how to code in Python and build React, and would like to contribute to open source? Please [reach out](mailto:xeniya.shoiko@outlook.com). 
+Poshmark sellers (the platform reports having over 8 million sellers) with potential expansion to Etsy, Mercari, and other marketplaces.
 
-## Key Features:
+Are you a Poshmark seller with Python and React skills interested in contributing to open source? Or interested in testing it? Please, reach out. [reach out](mailto:xeniya.shoiko@outlook.com). 
 
-# Multi-Marketplace Integration: 
-`Classy Graph` offers seamless integration with popular e-Commerce platforms like eBay, Poshmark, and Mercari (the sample included is for Poshmark). This enables users to manage their metrics in sales and stocks across multiple platforms from a centralized dashboard.
+# Key Features:
 
-# Sales Analytics and Reporting: 
-`Classy Graphs` provides in-depth analytics on sales performance, from a pro seller's point of view, allowing users to track their revenue, identify best-selling products, seasonality of categories, and assess the effectiveness of their pricing strategies.
+## Multi-Marketplace Integration 
+Classy Graphs integrates with popular platforms like eBay, Poshmark, and Mercari (sample provided focuses on Poshmark), allowing users to manage sales and inventory metrics from a single dashboard.
 
-## INPUT file fields (data in CSV)
+## Sales Analytics and Ad-hoc Reporting 
+Gain in-depth insights into sales performance from a power seller's perspective. Track revenue, identify best-selling products, uncover seasonal trends, and assess pricing strategies.
+
+## INPUT: File (CSV fields)
 ```
 Listing Date | Order Date | SKU	Order Id | Listing Title | Department | Category | Subcategory | Brand | Color | Size | Bundle Order? | Offer Order | NWT | Cost Price | Order Price | Seller Shipping Discount | Upgraded Shipping Label Fee | Net Earnings | Buyer State | Buyer Zip Code | Buyer Username | Sales Tax (Paid by Buyer) | Sales Tax (Paid by Seller) | Notes | Other Info		
 ```
-## OUTPUT automated analytic: graphs and dashboard samples (not all of them)
+## OUTPUT: Automated Analytics (Examples only due to GDPR)
 <img width="775" alt="Dashboard" src="https://github.com/kakun45/resellershelper_sample/assets/53381916/0f617dce-b39b-415f-8980-a0a99b27c97d">
 
-I am exploring the top 10 buyer states to gain insights into the consumer base. Understand their location for strategic decision-making. Uncover tax exemptions, holidays, and more. Optimize sourcing, timing, and outreach for maximum impact. For precise insights, consider a customized subscription. The 'Net Earnings' metric is utilized for accurate mapping. If the Upper map highlights 'scratched off' states there are no purchases. Geographical convenience is prioritized for far states and territories. Still working on including 'FM', 'MH', 'PW' territories. The map below delves into Zip Code-level details for each buyer. Points are sized and colored by purchase value. Geographic accuracy is maintained, though some points may appear in the sea due to low resolution. Apologies, Puerto Rico.
+**Few Dashboard Visuals Overview**
+
+Explore the top 10 buyer states to understand your customer base. Use this insight to optimize sourcing, timing, and outreach. Identify tax holidays, exemptions, and geographic patterns. The "Net Earnings" metric is used for mapping accuracy. States with no purchases may appear shaded off. Upon request: to include territories like FM, MH, and PW.
 <img width="1173" alt="Map by state" src="https://github.com/kakun45/resellershelper_sample/assets/53381916/39ebae35-dabb-443d-af61-c9fdccf3d00f">
+**Geographic Sales Analysis**
+
+Zip-code level maps visualize buyer locations with points sized and colored by purchase value. Some distortion may appear due to resolution (sorry, Puerto Rico!).
+
 ![Map by Sz of purchase](https://github.com/kakun45/resellershelper_sample/assets/53381916/e4f733f2-4b73-41b8-9e28-89a9c5fd446c)
 
-Discovering the Best Selling Categories. Optimize Your Closet/Boutique: Barplots effectively display value counts, enabling a thorough analysis of strengths and areas for improvement. This graph tallies individually sold items, even those bundled. It offers a visual breakdown of your best- and least-performing Categories. The accompanying tables feature the Top 5 Categories in both high and low performance. While Category data is reliable, Subcategories may be absent. We're eager to delve deeper into Subcategories for a comprehensive analysis. Customized 'Top-"number"' options are available upon request.
+**Best-Selling Categories**
+
+Use bar plots to assess strengths and improvement areas. The graph counts individual items sold, including those in bundles, and shows high- and low-performing categories. Top 5 categories are listed. Subcategory data as a customization is available on request.
 
 ![CategoryCount2020](https://github.com/kakun45/resellershelper_sample/assets/53381916/2de2e670-8938-4998-939f-d5669ed54b25)
 
-Applying unsupervised machine learning, specifically the K-means clustering algorithm, to discover patterns in the data. Brought in my domain knowledge to help interpret the clusters. I visualized clusters along two main axes of interest.
+**Unsupervised Learning Insights**
+
+K-means clustering is applied to uncover hidden patterns in your data. Domain knowledge enhances the interpretation of these clusters, which are visualized across key axes.
 
 ![kmeansCluster0-N](https://github.com/kakun45/resellershelper_sample/assets/53381916/3c7d196a-e061-4aeb-b6ee-112587f12797)
 
-Analyzing seasonality on multiple levels, color-coding, grouping, comparing to showcase the trends.
+**Seasonality Trends** 
+
+Multi-level analysis of seasonal trends with aggregation, color-coding and comparisons to spot trends in cycles and spikes.
 ![scatter plot 3_20](https://github.com/kakun45/resellershelper_sample/assets/53381916/6a7c25ae-d602-4d9b-9a83-c5035b222e90)
 
-Advising. Master Your Spending Tracking: 65% of Americans are unsure about last month's expenses. Uncover Posh's 20% fee intricacies and navigate red tape barriers. Consider $15 base price, shipping and bundle discounts, and additional costs. Tailor your pricing strategy for optimal results. Even for potential negative earnings scenarios (e.g., for tax purposes), understanding your limits is invaluable. The graph showcases two color-coded scenarios: 20% fee and beyond. Explore reasons for 25%, 30%, and occasionally 70% fees, from base price to discounts. Customizable bundle options available. Account for COGS, expenses, and taxes for true earnings insight.
+**Fee and Cost Advisory**
+
+Did you know that 65% of Americans can't recall what they spent last month? For Fashion resellers, operating on slim margin, this lack of clarity can be costly. Classy Graphs helps you break down Poshmark’s 20% fee structure—and uncover hidden costs that often go unnoticed.
+
+Start by considering your base price (e.g., $15), shipping, bundle discounts, and other expenses. Our data shows that listings priced below $15 often incur more than the standard 20% fee, shrinking your margins. If you offer free shipping, you’re not off the hook—it triggers an extra 20% fee on the label cost, which you pay instead of the buyer.
+
+Use these insights to tailor your pricing strategy and avoid unintentional profit loss. Even in cases where earnings dip into the negative—whether strategically or for tax reasons—knowing your financial boundaries is critical.
+
+Our graph will illustrate two key scenarios of your data: the standard 20% fee and cases where total deductions exceed that—up to 25%, 30%, or even 70%—due to discounts or other adjustments. Bundle configurations are fully customizable. For a true picture of profitability, factor in your COGS, platform fees, shipping, and taxes.
 
 ![sr_total_fees_paid](https://github.com/kakun45/resellershelper_sample/assets/53381916/580ae22d-23ae-4950-a4f6-81d44a29b368)
