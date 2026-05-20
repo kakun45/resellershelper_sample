@@ -1,3 +1,5 @@
+<img width="1344" height="768" alt="myedit_ai_image_0520133307" src="https://github.com/user-attachments/assets/9907ab42-04f5-41a5-8ead-48c2824edf0b" />
+
 # Classy Graphs's sample code
 ## Author - Xeniya Shoiko, All rights reserved.
 **Note:** My repository for the entire project is private. I'm including these files here for demo purposes only. This is **not** the complete code.
@@ -15,6 +17,8 @@ Poshmark sellers (the platform reports having over 8 million sellers) with poten
 
 Are you a Poshmark seller with Python and React skills interested in contributing to open source? Or interested in testing it? Please, reach out. [reach out](mailto:xeniya.shoiko@outlook.com). 
 
+## Roadblock & Detour
+[YouTube video that walks through your “controlled failure” in this project story](https://youtu.be/OaAWVqdwINo)
 # Key Features:
 
 ## Multi-Marketplace Integration 
