@@ -18,7 +18,7 @@ Poshmark sellers (the platform reports having over 8 million sellers) with poten
 Are you a Poshmark seller with Python and React skills interested in contributing to open source? Or interested in testing it? Please, reach out. [reach out](mailto:xeniya.shoiko@outlook.com). 
 
 ## Roadblock & Detour
-[YouTube video that walks through your “controlled failure” in this project story](https://youtu.be/OaAWVqdwINo)
+[2min YouTube video that walks through my “controlled failure” in this project](https://youtu.be/OaAWVqdwINo)
 # Key Features:
 
 ## Multi-Marketplace Integration 
