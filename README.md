@@ -1,4 +1,4 @@
-<img width="1344" height="768" alt="myedit_ai_image_0520133307" src="https://github.com/user-attachments/assets/9907ab42-04f5-41a5-8ead-48c2824edf0b" />
+<img width="1344" height="768" alt="myedit_ai_image_0524172419" src="https://github.com/user-attachments/assets/60ca1c45-4579-4395-a71a-97446ce50499" />
 
 # Classy Graphs's sample code
 ## Author - Xeniya Shoiko, All rights reserved.
